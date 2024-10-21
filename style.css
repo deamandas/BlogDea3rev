@@ -1,0 +1,215 @@
+/*Introduction, Selectors*/
+* {
+	padding: 0;
+	margin: 0;
+	font-family: helvetica;
+}
+/*Syntax*/
+a {
+	color: navy;
+	text-decoration: none;
+}
+.heading {
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	margin: 10px auto;
+	padding: 10px;
+}
+/*Margins*/
+.heading h3 {
+	font-size: 40px;
+	color: navy;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	position: relative;
+}
+.heading p {
+	font-size: 20px;
+	color: tan;
+	margin-bottom: 20px;
+}
+.about {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.about-image {
+	flex: 1;
+	margin-right: 40px;
+	padding-left: 40px;
+	gap: 40px;
+	overflow: hidden;
+}
+.about-image images {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	width: 700;
+	height: 400;
+	padding: 10px;
+}
+.about-content {
+	flex: 1;
+}
+.about-content h2 {
+	font-size: 23px;
+	margin-bottom: 15px;
+	color: navy;
+}
+.about-content p {
+	font-size: 20px;
+	margin-bottom: 5px;
+	margin-right: 20px;
+	padding-left: 1px;
+	line-height: 1.5;
+	color: black;
+}
+/*Background Colors*/
+.medsos {
+	padding:10px 0;
+	background-color: beige;
+	height:25px ;
+}
+
+/*Margin*/
+.medsos ul li {
+	display: inline-block;
+	margin-right: 10px;
+	size: 50px;
+}
+.container {
+	width: 80%;
+	margin:0 auto;
+}
+.container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+header h1 {
+	float: left;
+	padding:15px ;
+	font-size: 35px;
+	color: navy;
+}
+header ul {
+	float: right;
+	top: 10px;
+}
+header ul li {
+	display: inline-block;
+}
+/*Padding*/
+header ul li a {
+	padding: 20px 20px;
+	display: inline-block;
+}
+/*Colors*/
+header ul li a:hover {
+	background-color:beige;
+	color: tan;
+}
+.active {
+	background-color:beige;
+	color: white;
+}
+/*Background Image -- Height Width*/
+.csw {
+	height:70vh;
+	width:100%;
+	background-image: url('images/csw.jpeg');
+	background-size: cover;
+	background-position: center;
+	padding: 20px 25px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.75;
+}
+/*Opacity*/
+.csw: after {
+	content:'';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.35;
+	
+}
+/*Border*/
+.csw h2 {
+	color: white;
+	padding:20px 25px;
+	border: 7px solid white;
+	font-size: 60px;
+}
+section {
+	padding: 50px 0;
+}
+/*Padding*/
+.csw h3 {
+	color: white;
+	padding: 20px 25px;
+	position: absolute;
+	bottom: 20%;
+	font-size: 30px;
+
+/*Inline*/
+}
+section h3 {
+	text-align: left;
+	padding: 20px 0;
+	color: navy ;
+	font-size: 50px;
+}
+.informasi {
+	text-align: center;
+}
+
+h3, p {
+	text-align: justify;
+	font-size: 20px;
+}
+
+h3 {
+	text-align: left ;
+	font-size: 25px;
+	color: navy;
+	margin-top: 10px;
+}
+h3, p {
+	text-align: justify;
+	line-height: 1.5;
+}
+table {
+	box-align: center;
+	width: 100%;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 10px 20px;
+	text-align: center;
+
+}
+th {
+	background-color: navy;
+	color: white;
+}
+ul {
+	padding-left: 40px;
+	text-align: left;
+}
+
+.footer {
+	color: navy;
+}
