@@ -2,7 +2,6 @@
 * {
 	padding: 0;
 	margin: 0;
-	font-family: helvetica;
 }
 /*Syntax*/
 a {
@@ -19,18 +18,19 @@ a {
 	margin: 10px auto;
 	padding: 10px;
 }
-/*Margins*/
+/*Margins, Font*/
 .heading h3 {
 	font-size: 40px;
 	color: navy;
 	margin-bottom: 20px;
 	margin-top: 20px;
 	position: relative;
+	font-family: monospace;
 }
+/*Outline*/
 .heading p {
 	font-size: 20px;
-	color: tan;
-	margin-bottom: 20px;
+	color: darkblue;
 }
 .about {
 	display: flex;
@@ -122,7 +122,7 @@ header ul li a:hover {
 /*Background Image -- Height Width*/
 .csw {
 	height:70vh;
-	width:100%;
+	width:96%;
 	background-image: url('images/csw.jpeg');
 	background-size: cover;
 	background-position: center;
@@ -165,7 +165,7 @@ section {
 
 /*Inline*/
 }
-section h3 {
+section h3 { 
 	text-align: left;
 	padding: 20px 0;
 	color: navy ;
@@ -212,4 +212,5 @@ ul {
 
 .footer {
 	color: navy;
+
 }
